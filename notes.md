@@ -16,8 +16,16 @@ typically you may not need to use --save
 Use the version of the tutorial you are following
 Go to angular.json file
 in the styles array under build enter the path for bootstrap under node modules. 
-node_modules/bootstrap/dist/css/bootstrap.min.css
+"node_modules/bootstrap/dist/css/bootstrap.min.css"
 Use a bootstrap component in app.component.html to test if bootstrap is working
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>I'm working.</h1>
+    </div>
+  </div>
+</div>
+
 enter ng serve 
 Go to localhost/4200 or whichever port it tells you to
 see if bootstrap is working
